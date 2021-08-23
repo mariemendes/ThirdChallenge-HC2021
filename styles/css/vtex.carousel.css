@@ -1,0 +1,7 @@
+.containerImg {
+  background-color: rgba(51, 51, 51);
+}
+
+.containerImg .img {
+  max-width: 1520px;
+}

@@ -1,0 +1,300 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "menu-item#category-sale",
+      "menu-item#category-corinthians",
+      "menu-item#category-palmeiras",
+      "menu-item#category-signos",
+      "menu-item#category-funny",
+      "menu-item#category-maravilhas",
+      "menu-item#category-guerreiros",
+      "menu-item#category-album-1",
+      "menu-item#category-album-2",
+      "menu-item#category-album-3"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "sale",
+        "text": "PROMOÇÃO"
+      }
+    }
+  },
+  "menu-item#category-sale": {
+    "props": {
+      "id": "menu-item-category-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/",
+        "noFollow": false,
+        "tagTitle": "sale",
+        "text": "PROMOÇÃO"
+      }
+    }
+  },
+  "menu-item#category-corinthians": {
+    "props": {
+      "id": "menu-item-category-corinthians",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corinthians/",
+        "noFollow": false,
+        "tagTitle": "corinthians",
+        "text": "CORINTHIANS"
+      }
+    }
+  },
+  "menu-item#category-palmeiras": {
+    "props": {
+      "id": "menu-item-category-palmeiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/palmeiras/",
+        "noFollow": false,
+        "tagTitle": "palmeiras",
+        "text": "PALMEIRAS"
+      }
+    }
+  },
+  "menu-item#category-signos": {
+    "props": {
+      "id": "menu-item-category-signos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/signos/",
+        "noFollow": false,
+        "tagTitle": "signos",
+        "text": "SIGNOS"
+      }
+    }
+  },
+  "menu-item#category-funny": {
+    "props": {
+      "id": "menu-item-category-funny",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/divertidos/",
+        "noFollow": false,
+        "tagTitle": "funny",
+        "text": "DIVERTIDOS"
+      }
+    }
+  },
+  "menu-item#category-maravilhas": {
+    "props": {
+      "id": "menu-item-category-maravilhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/divertidos/",
+        "noFollow": false,
+        "tagTitle": "7 Maravilhas",
+        "text": "7 MARAVILHAS"
+      }
+    }
+  },
+  "menu-item#category-guerreiros": {
+    "props": {
+      "id": "menu-item-category-guerreiros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guerreiros/",
+        "noFollow": false,
+        "tagTitle": "guerreiros",
+        "text": "GUERREIROS"
+      }
+    }
+  },
+  "menu-item#category-album-1": {
+    "props": {
+      "id": "menu-item-category-album-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-1/",
+        "noFollow": false,
+        "tagTitle": "album 1",
+        "text": "ALBUM 1"
+      }
+    }
+  },
+  "menu-item#category-album-2": {
+    "props": {
+      "id": "menu-item-category-album-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-2/",
+        "noFollow": false,
+        "tagTitle": "album 2",
+        "text": "ALBUM 2"
+      }
+    }
+  },
+  "menu-item#category-album-3": {
+    "props": {
+      "id": "menu-item-category-album-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-1/",
+        "noFollow": false,
+        "tagTitle": "album 3",
+        "text": "ALBUM 3"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}
