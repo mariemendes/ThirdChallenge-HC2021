@@ -8,6 +8,6 @@ My boilerplate theme to create stores in the VTEX IO platform.
 
 <table>
   <tr>
-    <td align="center"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Mariane Mendes</b></sub></a><br /><a href="hhttps://github.com/mariemendes/" title="Documentation"></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/72764027?v=4" width="100px;" alt=""/><br /><sub><b>Mariane Mendes</b></sub></a><br /><a href="hhttps://github.com/mariemendes/" title="Documentation"></td>
   </tr>
 </table>
